@@ -1,2 +1,3 @@
 # personal-blog
-site for inputting content into blog posts
+## site for inputting content into blog posts
+
