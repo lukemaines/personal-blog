@@ -8,7 +8,7 @@ header {
     justify-content: flex-end;
 }
 
-#dark-mode {
+#dark-mode-btn {
     margin: 20px;
     height: 30px;
     width: 40px;
@@ -17,6 +17,15 @@ header {
 
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+. {
+    background-color: white;
+    color: black;
+}
 #main-content {
     display: flex;
     flex-flow: row nowrap;
@@ -29,7 +38,7 @@ header {
 
 }
 
-#hero {
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +50,17 @@ header {
 
 }
 
-#hero-circle {
+.dark-mode .hero {
+    border: 3px white;
+}
+
+.dark-mode #submit-button {
+    background-color: white;
+    color: black;
+
+}
+
+.hero-circle {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -55,11 +74,20 @@ header {
 
 }
 
-#hero h1 {
+
+.hero h1 {
     font-size: 40px;
     color: white;
  
 
+}
+
+.dark-mode .hero h1 {
+    color: black;
+}
+
+.dark-mode .hero-circle {
+    background-color: white;
 }
 
 #input-form {
