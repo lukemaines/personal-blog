@@ -6,7 +6,10 @@ header {
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
+}
+
+header h2 {
+    margin-left: 20px;
 }
 
 #back-btn {
@@ -38,8 +41,40 @@ header {
     color: white;
 }
 
+.dark-mode header {
+    border: 3px solid white;
+
+}
+
+.dark-mode section {
+    border: 3px solid white;
+
+}
+
+.dark-mode footer {
+    border: 3px solid white;
+
+}
 #header-btns {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
+}
+
+.blog-container {
+    border: 3px solid black;
+    height: 80vh;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100vw;
+    margin-top: 10px;
+    border: 3px solid black;
+    
+}
+
+footer h3 {
+    margin-left: 20px;
 }
