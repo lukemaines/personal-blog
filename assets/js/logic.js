@@ -6,3 +6,4 @@ darkModeBtn.addEventListener('click', function() {
     const isDarkMode = body.classList.contains('dark-mode');
     darkModeBtn.textContent = isDarkMode ? '☀️' : '🌙'; 
 });
+
