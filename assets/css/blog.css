@@ -5,7 +5,23 @@ header {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+#back-btn {
+    justify-content: start;
+}
+
+#back-btn button {
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+.dark-mode #back-btn button {
+    background-color: white;
+    color: black;
 }
 
 #dark-mode-btn {
@@ -14,7 +30,7 @@ header {
     width: 40px;
     background-color: rgb(48, 47, 47);
     border-radius: 40px; 
-
+    justify-content: end;
 }
 
 .dark-mode {
@@ -22,7 +38,8 @@ header {
     color: white;
 }
 
-. {
-    background-color: white;
-    color: black;
+#header-btns {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
 }
