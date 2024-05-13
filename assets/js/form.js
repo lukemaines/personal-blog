@@ -7,6 +7,9 @@ document.querySelector('#submit-button').addEventListener('click', function(subm
     const content = document.querySelector('input[name="content"]').value;
     const blogPost = {username, title, content};
     const blogPostString = JSON.stringify(blogPost)
+    if (!username || !title || !content) {
+        window.alert("Please enter what's on your mind to proceed!");
+        return;}
     localStorage.setItem('blogPost', blogPostString);
     console.log(blogPostString)
     window.location.href = 'blog.html';

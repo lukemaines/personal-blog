@@ -17,8 +17,7 @@ function createBlogPost(blogPost) {
     <p>${blogPost.content}</p>
     <h5>Posted by: ${blogPost.username}</h5>
     `;
-    // const blogContent = blogCard.querySelector('p');
-    // blogContent.setAttribute('class', 'blog-content');
+    
     blogContainer.appendChild(blogCard);
 }
 });
